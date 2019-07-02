@@ -7,8 +7,13 @@
   "author": "Tung Vu <me@tungv.com>",
   "license": "MIT",
   "babel": {
-    "presets": ["stage-3", "env"],
-    "plugins": ["transform-runtime"]
+    "presets": [
+      "stage-3",
+      "env"
+    ],
+    "plugins": [
+      "transform-runtime"
+    ]
   },
   "scripts": {
     "build": "babel ./src -d ./build",
